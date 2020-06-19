@@ -12,3 +12,5 @@ Blockquote:
 
 > Smile
 > Smile
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/SNice.svg/1024px-SNice.svg.png"/>
