@@ -7,3 +7,8 @@ A smiley, sometimes referred to as a smiley face, is a basic ideogram that repre
 * Yellow
 * Smiles
 * Round
+
+Blockquote:
+
+> Smile
+> Smile
