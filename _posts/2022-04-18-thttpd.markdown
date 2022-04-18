@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "thttpd installieren und für Flask & Python Beispiele nutzen"
+title:  "thttpd installieren und für CGI, Flask & Python Beispiele nutzen"
 date:   2022-04-18 19:45:35 +0200
-categories: python flask thttpd 
+categories: python flask thttpd cgi 
 ---
+
+Eine einfache Variante um schnell einen kleinen CGI-fähigen Server zum Testen aufzusetzen. 
 
 `wget https://www.acme.com/software/thttpd/thttpd-2.29.tar.gz`
 
