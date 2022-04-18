@@ -7,22 +7,19 @@ categories: python flask thttpd cgi
 
 Eine einfache Variante um schnell einen kleinen CGI-fähigen Server zum Testen aufzusetzen. 
 
-`wget https://www.acme.com/software/thttpd/thttpd-2.29.tar.gz`
+{% highlight shell %}
+wget https://www.acme.com/software/thttpd/thttpd-2.29.tar.gz
+tar xvfz thttpd.tar.gz
+cd thttpdir
+mkdir www
+./configure
+make
+{% endhighlight %}
 
-`tar xvfz thttpd.tar.gz`
-
-`cd thttpdir`
-
-`mkdir www`
-
-`./configure` und `make`
-
-Datei `config` erstellen mit folgender Zeile
+Datei `config` mit folgender Zeile erstellen:
 
 `cgipat=**.py`
 
-thttpd starten mit
+thttpd mit `./thttpd -p 8123 -C config -d www` starten.
 
-`./thttpd -p 8123 -C config -d www`
-
-Logs mit `tail -f /var/log/syslog` anzeigen lassen
+Logs mit `tail -f /var/log/syslog` anzeigen lassen.
