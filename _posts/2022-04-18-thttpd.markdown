@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "thttpd installieren und für Flask & Python Beispiele nutzen"
+date:   2022-04-18 19:45:35 +0200
+categories: python flask thttpd 
+---
+
+`wget https://www.acme.com/software/thttpd/thttpd-2.29.tar.gz`
+
+`tar xvfz thttpd.tar.gz`
+
+`cd thttpdir`
+
+`mkdir www`
+
+`./configure` und `make`
+
+Datei `config` erstellen mit folgender Zeile
+
+`cgipat=**.py`
+
+thttpd starten mit
+
+`./thttpd -p 8123 -C config -d www`
+
+Logs mit `tail -f /var/log/syslog` anzeigen lassen
