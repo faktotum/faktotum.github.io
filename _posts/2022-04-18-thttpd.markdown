@@ -9,8 +9,8 @@ Eine einfache Variante um schnell einen kleinen CGI-fähigen Server zum Testen a
 
 {% highlight shell %}
 wget https://www.acme.com/software/thttpd/thttpd-2.29.tar.gz
-tar xvfz thttpd.tar.gz
-cd thttpdir
+tar xvfz thttpd-2.29.tar.gz
+cd thttpdir-2.29
 mkdir www
 ./configure
 make
