@@ -1,9 +1,14 @@
-# frozen_string_literal: true
-
 source "https://rubygems.org"
 
-# gem "rails"
-# gem "jekyll"
+# Hello! This is where you manage which Jekyll version is used to run.
+# When you want to use a different version, change it below, save the
+# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
+#
+#     bundle exec jekyll serve
+#
+# This will help ensure the proper Jekyll version is running.
+# Happy Jekylling!
+gem "jekyll", "~> 3.9.0"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.0"
@@ -30,3 +35,4 @@ gem "wdm", "~> 0.1.0", :platforms => [:mingw, :x64_mingw, :mswin]
 # kramdown v2 ships without the gfm parser by default. If you're using
 # kramdown v1, comment out this line.
 gem "kramdown-parser-gfm"
+
