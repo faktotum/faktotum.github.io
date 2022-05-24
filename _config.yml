@@ -32,6 +32,10 @@ plugins:
 
 show_excerpts: true
 
+url: "https://faktotum.github.io" # the base hostname & protocol for your site
+plugins:
+  - jekyll-sitemap
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
